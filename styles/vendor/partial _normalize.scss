@@ -1,0 +1,16 @@
+
+@import 'colors'; 
+
+
+body {
+  background-color: $dark-background;
+  color: $primary-font-color;
+}
+
+h1 {
+  color: $secondary-font-color;
+}
+
+.header {
+  background-color: $darker-background;
+}

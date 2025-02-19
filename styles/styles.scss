@@ -1,0 +1,87 @@
+
+$primary-font-color: #575757;
+$secondary-font-color: #DB8D33;
+$dark-background: #414141;
+$darker-background: #150300;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: $primary-font-color;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $darker-background;
+    padding: 15px 50px;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.text {
+    max-width: 40%;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin: 5px 0;
+}
+
+.discover {
+    color: $secondary-font-color;
+    font-style: italic;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.about-link {
+    color: $secondary-font-color;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
