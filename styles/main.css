@@ -74,76 +74,74 @@ html, body {
     padding: 2em;
     text-align: center;
   }
-  /* Large screen mode */
-  @media screen and (min-width: 1024px) {
-    h1 {
-      font-size: 4em;
-      text-align: center;
-    }
+  /* Large screen mode */@media screen and (min-width: 1024px) {
   
-    .hero {
-      text-align: center;
-      padding: 3em 0;
-      max-width: 1200px; 
-      margin: 0 auto; 
-    }
-  
-    .container {
-      max-width: 1200px; 
-      margin: 0 auto; 
-    }
-  
-    .main-container {
-      display: flex;
-      gap: 2em;
-      align-items: flex-start;
-    }
-  
-    .post {
-      flex: 2;
-      background: #ddd;
-      padding: 1em;
-    }
-  
-    .sidebar {
-      flex: 1;
-      background: #f5f5f5;
-      padding: 1em;
-    }
-  
-    .mixed-layout {
-      display: flex;
-      gap: 2em;
-    }
-  
-    .first {
-      flex: 1;
-      background: #eee;
-      padding: 1em;
-    }
-  
-    .second {
-      display: flex;
-      flex: 1;
-      gap: 0;
-    }
-  
-    .second-a {
-      flex: 2;
-      background: #ff5a4d;
-      text-align: center;
-      padding: 1em;
-      color: white;
-    }
-  
-    .second-b {
-      flex: 1;
-      background: #000080;
-      text-align: center;
-      padding: 1em;
-      color: white;
-    }
+  .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
   }
+
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 3em 0;
+  }
+
+  
+  .main-container, .mixed-layout {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+
+  .post {
+    flex: 2;
+    background: #ddd;
+    padding: 1em;
+  }
+
+  .sidebar {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 1em;
+  }
+
+ 
+  .first {
+    flex: 1;
+    background: #eee;
+    padding: 1em;
+  }
+
+  .second {
+    display: flex;
+    flex: 1;
+    gap: 0;
+  }
+
+  .second-a {
+    flex: 2;
+    background: #ff5a4d;
+    text-align: center;
+    padding: 1em;
+    color: white;
+  }
+
+  .second-b {
+    flex: 1;
+    background: #000080;
+    text-align: center;
+    padding: 1em;
+    color: white;
+  }
+}
+
   
   
 /*# sourceMappingURL=main.css.map */
