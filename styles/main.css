@@ -1,81 +1,5 @@
-html, body {
-    background: #d5d5d5;
-    font-family: sans-serif;
-    padding: 1em;
-    color: #414141;
-    height: 100%;
-  }
-  
-
-  nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  nav a {
-    text-decoration: none;
-    color: #414141;
-  }
-
-  .hero {
-    background: white;
-    padding: 2em;
-    margin: 1em 0;
-    min-height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .main-container {
-    background: #eee;
-    padding: 2em;
-    margin: 1em auto;
-    width: 100%;
-    max-width: 600px;
-  }
-  
+@media screen and (min-width: 1024px) {
  
-  .related-posts {
-    background: white;
-    padding: 1em;
-    margin-top: 1em;
-    border-radius: 5px;
-  }
-  
-  
-  .mixed-layout {
-    background: white;
-    padding: 2em;
-    margin: 1em auto;
-    width: 100%;
-    max-width: 600px;
-  }
-  
- 
-  .second-a {
-    background: tomato;
-    color: white;
-    padding: 2em;
-    text-align: center;
-  }
-  .second-b {
-    background: navy;
-    color: white;
-    padding: 2em;
-    text-align: center;
-  }
-  /* Large screen mode */@media screen and (min-width: 1024px) {
-  
   .container {
     max-width: 1200px; 
     margin: 0 auto; 
@@ -91,7 +15,6 @@ html, body {
     padding: 3em 0;
   }
 
-  
   .main-container, .mixed-layout {
     display: flex;
     gap: 2em;
@@ -99,7 +22,7 @@ html, body {
     width: 100%;
   }
 
-
+ 
   .post {
     flex: 2;
     background: #ddd;
@@ -112,7 +35,7 @@ html, body {
     padding: 1em;
   }
 
- 
+
   .first {
     flex: 1;
     background: #eee;
@@ -122,7 +45,6 @@ html, body {
   .second {
     display: flex;
     flex: 1;
-    gap: 0;
   }
 
   .second-a {
@@ -142,6 +64,5 @@ html, body {
   }
 }
 
-  
   
 /*# sourceMappingURL=main.css.map */
